@@ -2,8 +2,10 @@
  * Created by Administrator on 2016/5/4.
  */
 
+let url = 'https://api.douban.com/v2/music';
 let data = [
   {author: "Pete Hunt", text: "This is one comment"},
+  {author: "Best Day", text: "This is the best day of my life"},
   {author: "Jordan Walke", text: "This is *another* comment"}
 ];
 
@@ -37,7 +39,9 @@ let CommentForm = React.createClass({
 })
 
 let CommentBox = React.createClass({
-  
+  gitInitialState: function() {
+  	return {data: []};
+  },
   render: function() {
     return <div className="commentBox">
     	<h1>Comments</h1>

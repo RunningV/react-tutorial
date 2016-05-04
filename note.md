@@ -3,4 +3,5 @@
 2. React.createElement()
 3. ReactDOM.render(`ReactComponent`,`DOMNode`);
   实例化根组件，第一个参数为定义的React组件，第二个参数为页面上的DOM节点
+ 4. getInitialState() 在组件的生命周期中仅执行一次，用于设置组件的初始化 `state` 。
   
