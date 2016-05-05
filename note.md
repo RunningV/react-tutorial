@@ -8,9 +8,9 @@
 5. componentDidMount() 是一个组件渲染的时候被 React 自动调用的方法
 6. `驼峰命名`事件名， `ref`作为属性定义标签对象，用`this.refs`引用DOM节点
 7. 组件之间数据传递
-  -- 父组件 > 子组件
+  -  父组件 > 子组件
   `<ParentNode  data={data}>`  然后在子组件中用`this.props.data`调用
-  -- 子组件 > 父组件
+  -  子组件 > 父组件
   在父组件标签中传递自定义属性事件
   `<ParentNode selfAttributeEvent={handleEvent} >`
   然后在子组件中调用`this.props.selfAttributeEvent`方法
