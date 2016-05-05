@@ -10,8 +10,13 @@
         "text": "React is *great*!"
     },
     {
-        "id": 1462351967571,
-        "author": "best day",
+        "id": 1462432582583,
+        "author": "Best day",
         "text": "it's the best day of my life"
+    },
+    {
+        "id": 1462432999948,
+        "author": "dont",
+        "text": "please don't wake me up"
     }
 ]
